@@ -1,0 +1,3 @@
+if id == num then id = id + num
+if id < num then id = id * num else id = id / num
+id = id + num * num

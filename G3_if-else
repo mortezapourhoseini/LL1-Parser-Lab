@@ -1,0 +1,9 @@
+S -> if C then S S' | id = E
+S' -> else S | ε
+C -> E R E
+R -> == | != | < | > | <= | >=
+E -> T E'
+E' -> + T E' | - T E' | ε
+T -> F T'
+T' -> * F T' | / F T' | ε
+F -> ( E ) | id | num
